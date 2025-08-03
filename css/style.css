@@ -1427,3 +1427,21 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+  /* === Equal Height Fix for Service Cards === */
+.row.row-pt-md {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.row-pt-md > [class*='col-'] {
+  display: flex;
+}
+
+.services {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
